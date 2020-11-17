@@ -1,1 +1,18 @@
+* {
+  box-sizing: border-box;
+}
 
+header {
+  font-family: Candara, Arial, sans-serif;
+  color: #41ead4;
+  background: #0c0f0a;
+}
+
+body {
+  background: #bbcde5;
+}
+
+main {
+  text-align: center;
+}
+  
