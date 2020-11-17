@@ -3,9 +3,11 @@
 }
 
 header {
-  font-family: Candara, Arial, sans-serif;
-  color: #41ead4;
+  font-family: Candara, sans-serif;
+  color: #FFFFFF;
   background: #0c0f0a;
+  text-align: center;
+  
 }
 
 body {
@@ -16,3 +18,4 @@ main {
   text-align: center;
 }
   
+
