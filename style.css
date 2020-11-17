@@ -53,7 +53,7 @@ p {
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
   color: #FFFFFF;
-  margin: 10px 300px;
+  margin: 10px 500px;
   padding: 10px;
   text-align: justify;
 }
@@ -74,11 +74,15 @@ hr{
 }
 
 ol {
+  font-style: Optima, Arial, sans-serif;
+  font-size: 17px;
   padding: 0 0 15px 0;
   
 }
 
 ul {
+  font-style: Optima, Arial, sans-serif;
+  font-size: 17px;
   padding: 0 0 15px 0;
 }
 
