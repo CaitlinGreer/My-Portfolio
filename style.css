@@ -3,19 +3,49 @@
 }
 
 header {
-  font-family: Candara, sans-serif;
   color: #FFFFFF;
   background: #0c0f0a;
   text-align: center;
-  
-}
+  margin: 0 auto;
+ }
 
 body {
-  background: #bbcde5;
+  background: #003459;
 }
 
 main {
   text-align: center;
 }
-  
+
+h1 {
+  font-family: Optima, Arial, sans-serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin: 100px;
+  padding: 100px;
+}
+
+h2 {
+  font-family: Optima, Arial, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 100px;
+  padding: 100px;
+}
+
+p {
+  font-family: Optima, Arial, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 100px;
+  padding: 100px;
+}
+
+footer {
+  background: #0c0f0a;
+  font-family: Optima, Arial, sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin: 0;
+}
 
