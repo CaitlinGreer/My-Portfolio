@@ -13,6 +13,11 @@ body {
   background: #003459;
 }
 
+img {
+  image-size: 400px;
+  border-radius: 20px;
+}
+
 main {
   text-align: center;
 }
