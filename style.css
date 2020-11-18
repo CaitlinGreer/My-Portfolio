@@ -5,13 +5,14 @@
 header {
   color: #FFFFFF;
   background: #0c0f0a;
-  text-align: left;
+  text-align: center;
   margin: -25px 0 10px 0;
   padding: 20px 0 0 0;
  }
 
 body {
   background: #3a506b;
+  margin 0 auto;
 }
 
 img {
