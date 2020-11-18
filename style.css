@@ -98,6 +98,10 @@ hr{
   padding: 1%;
 }
 
+.center {
+  text-align: center;
+}
+
 a {
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
