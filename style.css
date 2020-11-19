@@ -87,19 +87,22 @@ hr{
   margin-top: 35px;
   margin-bottom: 35px;
 }
-
-ol {
-  margin: 25%;
-}
-
+  
 .list{ /* use to style both ol and ul */
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
-  text-align: justify;
   list-style-position: inside;
   color: #FFFFFF;
   margin: 0% 15%;
   padding: 1%;
+}
+
+ul {
+  text-align: justify;
+}
+
+ol {
+  text-align: center;
 }
 
 .center { /* use to center specific elements I don't want justified*/
