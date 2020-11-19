@@ -1,47 +1,47 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* add this to every page to assure padding and border are included in width and height */
 }
 
-header {
+header { /* style the header with white font and dark background, be sure to set margins and padding to not crowd the text*/
   color: #FFFFFF;
   background: #0c0f0a;
   text-align: center;
-  margin: -25px 0 20px 0;
+  margin: -25px 0 20px 0; 
   padding: 20px 0 0 0;
  }
 
 body {
   background: #3a506b;
-  margin: 0 auto;
+  margin: 0 auto; /* set margins to auto adjust to size of page */
 }
 
 img {
-  max-width: 35%;
+  max-width: 35%; /* resize image to appropriate size*/
   max-height: auto;
   border-radius: 20px;
-  border: 2px solid #0c0f0a; 
-  margin: 15px 0px 15px 15px;
+  border: 2px solid #0c0f0a; /* add border with same color as header background */
+  margin: 15px;
 }
 
-main {
-  text-align: center;
+main { /* set text-alignment to center for entire main section of the page*/
+  text-align: center; 
 
 }
 
-h1 {
+h1 { /* use Impact font in white so h1 stands out */
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 40px;
   color: #FFFFFF;
   text-align: center;
-  margin: 15px 0 0 5px;
-  padding: 10px 0 -30px 0;
+  margin: 15px 0 0 0; /* create space between h1 and top of page */
+  padding: 10px 0 -30px 0; 
 }
 
 h2 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* use same front as h1 to create continutity between h1 and h2*/
   font-size: 30px;
   color: #FFFFFF;
-  margin: 20px 0 10px 0;
+  margin: 20px 0 10px 0; /* create space on top and bottom */
   padding: 10px 0 5px 0;
 }
 
@@ -49,7 +49,7 @@ h3{
   font-family: "Bradley Hand", Arial, sans-serif;
   font-size: 25px;
   color: #FFFFFF;
-  margin: 20px 0 10px 0;
+  margin: 20px 0 10px 0; /* create space on top and bottom of h3  */
   padding: 5px;
 }
 
@@ -59,19 +59,19 @@ h4 {
   text-align: center;
   color: #bcc5c5;
   padding: 0 0 10px 0;
-  margin: -2px 0 0 5px;
+  margin: -2px 0 0 5px; /* set margin top to bring closer to h1 in heading */
 }
 
 h5 {
   font-family: Optima, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 10px; /* make sure font size is small here, minor information that doesn't need to be large*/
   color: #bcc5c5;
   padding: 0 0 10px 0;
   margin: -2px 0 0 5px;
 
 }
 
-p {
+p { /* style paragraph with margins on left and right*/
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
   color: #FFFFFF;
@@ -80,7 +80,7 @@ p {
   text-align: justify;
 }
 
-hr{
+hr{ /* style horizontal rules with white background and matching border to img for consistency */
   height: 5px;
   border: 2px #0c0f0a solid;
   background: #FFFFFF;
@@ -93,15 +93,15 @@ hr{
   font-size: 17px;
   list-style-position: inside;
   color: #FFFFFF;
-  margin: 0% 15%;
+  margin: 0% 15%; /* add margin to left and right of lists */
   padding: 1%;
 }
 
-ul {
+ul { /* separate ul to keep text-align to justify for consistency with <p> */
   text-align: justify;
 }
 
-ol {
+ol { /* separate ol to center */
   text-align: center;
 }
 
@@ -109,17 +109,18 @@ ol {
   text-align: center;
 }
 
-a {
+a { /* make sure link style matches <p>*/
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
 }
 
-a:link {color: #0b132b;}
-a:visited {color:#bcc5c5;}
-a:hover {color:#6fffe9;}
-a:active {color:#FFFFFF;}
+/* stlye links with pseudo code */
+a:link {color: #0b132b;} /* standard color */
+a:visited {color:#bcc5c5;}/* color after link is clicked */
+a:hover {color:#6fffe9;} /* hover color*/
+a:active {color:#FFFFFF;} /*color when user is clicking on link */
 
-footer {
+footer { /* match footer background to header */
   background: #0c0f0a;
   text-align: center;
   padding: 20px 0 15px 0;
