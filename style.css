@@ -88,12 +88,16 @@ hr{
   margin-bottom: 35px;
 }
 
+ol {
+  margin: 25%;
+}
+
 .list{ /* use to style both ol and ul */
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
+  text-align: justify;
   list-style-position: inside;
   color: #FFFFFF;
-  text-align: justify;
   margin: 0% 15%;
   padding: 1%;
 }
